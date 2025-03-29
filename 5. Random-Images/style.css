@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #141204;
+  color: #ededed;
+}
+.image-container {
+  text-align: center;
+}
+.image-container img {
+  margin: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background: lightgray;
+  width: 300px;
+  height: 300px;
+}
+
+.Btn {
+  background: greenyellow;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #000;
+  outline: none;
+}
+
+.Btn:hover {
+  opacity: 0.8;
+}
